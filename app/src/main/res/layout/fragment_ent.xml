@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/game_back"
+    android:layout_height="match_parent"
+    tools:context=".frraaaa.EntFragment">
+
+
+
+    <ImageView
+        android:id="@+id/btn_img_logo_2222"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="45dp"
+        android:rotation="92"
+        android:alpha="0.8"
+        app:layout_goneMarginStart="8dp"
+        android:src="@drawable/el1"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toStartOf="@id/tv_title_game"
+        app:layout_constraintBottom_toBottomOf="@id/hjohyjyh" />
+
+    <ImageView
+        android:id="@+id/btn_img_rules"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:alpha="0.7"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_baseline_menu_book_24"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toEndOf="@id/gtpgtgtjgtjjgtjgtjtgj"
+        app:layout_constraintEnd_toEndOf="@id/deedcddc"
+        app:layout_constraintTop_toBottomOf="@id/btn_img_question" />
+
+
+
+    <ImageView
+        android:id="@+id/btn_img_logo_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="45dp"
+        android:rotation="45"
+        android:alpha="0.8"
+        android:src="@drawable/el1"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toStartOf="@id/tv_title_game"
+        app:layout_constraintBottom_toBottomOf="@id/tv_title_game" />
+
+    <ImageView
+        android:id="@+id/btn_img_exit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.9"
+        android:src="@drawable/ic_baseline_close_24"
+        app:layout_constraintBottom_toBottomOf="@id/jgtjgtuhgthvnvvbbn"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toEndOf="@id/deedcddc"
+        app:layout_constraintTop_toTopOf="@id/ogtjoitgjgjtjjtgjtgjgtj" />
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ogtjoitgjgjtjjtgjtgjgtj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hjohyjyh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/jgtigtjijtgitjgti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.70" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hyihyijhyjjhyjyjiyh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/jgtjgtuhgthvnvvbbn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hjhyijyhjjhyjhyj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtjgtjjgtjjgtojjgtj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.17" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/deedcddc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title_game"
+        android:fontFamily="@font/montserrat_black"
+        android:layout_height="0dp"
+        android:textAllCaps="true"
+        android:layout_width="0dp"
+        android:padding="16dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="#020239"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@id/gtpgtgtjgtjjgtjgtjtgj"
+        app:layout_constraintEnd_toEndOf="@id/deedcddc"
+        app:layout_constraintStart_toStartOf="@id/hyihyijhyjjhyjyjiyh"
+        app:layout_constraintTop_toTopOf="@id/gtjgtjjgtjjgtojjgtj" />
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/gtpgtgtjgtjjgtjgtjtgj"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="@id/deedcddc"
+        app:layout_constraintStart_toStartOf="@id/hyihyijhyjjhyjyjiyh"
+        app:layout_constraintBottom_toBottomOf="@id/hjhyijyhjjhyjhyj"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/slot" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_gameeee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="play"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/deedcddc"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/hyihyijhyjjhyjyjiyh" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_user_bet_count"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:layout_weight="3"
+        android:background="@drawable/tv_count_back"
+        android:fontFamily="@font/jost_bold"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="500"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        app:fontFamily="@font/montserrat_black"
+        app:layout_constraintBottom_toTopOf="@id/btn_play_gameeee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gtpgtgtjgtjjgtjgtjtgj" />
+
+    <TextView
+        android:id="@+id/tgougtthtggt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.6"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="* current bet"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_500"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_user_bet_count" />
+
+    <ImageView
+        android:id="@+id/btn_img_plus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="@id/tv_user_bet_count"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toStartOf="@id/tv_user_bet_count"
+        app:layout_constraintStart_toStartOf="@id/hyihyijhyjjhyjyjiyh"
+        app:layout_constraintTop_toTopOf="@id/tv_user_bet_count" />
+
+    <ImageView
+        android:id="@+id/btn_img_minus"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_baseline_remove_24"
+        app:layout_constraintBottom_toBottomOf="@id/tv_user_bet_count"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toEndOf="@id/tv_user_bet_count"
+        app:layout_constraintEnd_toEndOf="@id/deedcddc"
+        app:layout_constraintTop_toTopOf="@id/tv_user_bet_count" />
+
+    <ImageView
+        android:id="@+id/btn_img_question"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:alpha="0.7"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_baseline_help_outline_24"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toEndOf="@id/gtpgtgtjgtjjgtjgtjtgj"
+        app:layout_constraintEnd_toEndOf="@id/deedcddc"
+        app:layout_constraintTop_toTopOf="@id/gtpgtgtjgtjjgtjgtjtgj" />
+
+    <ImageView
+        android:id="@+id/btn_img_logogtgtgt"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/el2"
+        android:alpha="0.8"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toEndOf="@id/gtpgtgtjgtjjgtjgtjtgj"
+        app:layout_constraintEnd_toEndOf="@id/tv_title_game"
+        app:layout_constraintTop_toTopOf="@id/tv_title_game" />
+
+    <ImageView
+        android:id="@+id/btn_img_logogtgtgt_222"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/el2"
+        android:alpha="0.8"
+        android:rotation="25"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toEndOf="@id/jgtigtjijtgitjgti"
+        app:layout_constraintEnd_toEndOf="@id/tv_title_game"
+        app:layout_constraintTop_toTopOf="@id/hjhyijyhjjhyjhyj" />
+
+    <TextView
+        android:id="@+id/tv_dovn_text_raitlist_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:fontFamily="@font/montserrat_black"
+        android:text="@string/ap_author"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_play_gameeee" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nnabababh"
+    app:startDestination="@id/entFragment">
+
+    <fragment
+        android:id="@+id/entFragment"
+        android:name="com.fungames.battletank.frraaaa.EntFragment"
+        android:label="fragment_ent"
+        tools:layout="@layout/fragment_ent" >
+        <action
+            android:id="@+id/action_entFragment_to_gameeeFragment"
+            app:destination="@id/gameeeFragment" />
+        <action
+            android:id="@+id/action_entFragment_to_abouutFragment"
+            app:destination="@id/abouutFragment" />
+        <action
+            android:id="@+id/action_entFragment_to_autorFragment"
+            app:destination="@id/autorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameeeFragment"
+        android:name="com.fungames.battletank.frraaaa.GameeeFragment"
+        android:label="fragment_gameee"
+        tools:layout="@layout/fragment_gameee" />
+    <fragment
+        android:id="@+id/abouutFragment"
+        android:name="com.fungames.battletank.frraaaa.AbouutFragment"
+        android:label="fragment_abouut"
+        tools:layout="@layout/fragment_abouut" />
+    <fragment
+        android:id="@+id/autorFragment"
+        android:name="com.fungames.battletank.frraaaa.AutorFragment"
+        android:label="fragment_autor"
+        tools:layout="@layout/fragment_autor" />
+</navigation>
